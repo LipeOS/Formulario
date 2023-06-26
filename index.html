@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+    <!-------site-info-------->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesquisa</title>
+
+    <!--------links----------->
+<link rel="stylesheet" href="style.css">
+<link rel="shortcut icon" href="img/procurar.png" type="image/x-icon">
+</head>
+
+
+<body>
+ 
+    
+    <h1 id="titulo">Formulário da Pesquisa</h1>
+    <p id="subtitulo"><em>Escreve as merdas das suas informações ae seu bosta, quero roubar o que você tem!</em></p>
+    <hr>
+
+    <!-----------perguntas---------------->
+
+    <form id="forma">
+        
+        <div id="pg1" class="gp-perguntas">
+            <div id="alinhamento"><label id="perguntas" for="name">
+                Nome: 
+            </label>
+    <input  type="text"
+     placeholder="Digite aqui:">
+     <br></div>
+            
+    </div>
+ 
+
+    <div  id="pg2"
+    class="gp-perguntas">
+    <div id="alinhamento"><label id="perguntas" for="name"
+        >Email: 
+    </label>
+    <input type="email"
+     placeholder="Digite aqui:"></div>
+        
+    </div>
+    
+
+    <div id="pg3"
+     class="gp-perguntas"><div id="alinhamento"><label for="age">
+            Idade:
+        </label>
+        <input type="number"
+         placeholder="Digite:"
+         min="1"
+         max="100" ></div>
+        
+        </div>
+
+    <div id="pg4" class="gp-perguntas"><div id="alinhamento"><p id="pg4text">
+          Estado civil?
+        </p>
+        <option disabled selected value=""></option>
+        <select  name="dropdow" id="estado pl"><option value="Solteiro">
+            Solteiro</option>
+        <option value="Casado">Casado
+        </option>
+        <option value="Viuvo">Viuvo
+        </option>
+        <option value="Divorciado">Divorciado
+        </option>
+        <option value="Ficante">Ficante premium
+
+        </select></div>
+        
+        
+    </div>
+
+    <div id="pg5" class="gp-perguntas"><div id="alinhamento"><p id="pg5text">Marque o que tem:</p>
+        <label for="marcações">
+             <input name="prefer" value="front" id="box" type="checkbox">
+             Fogão
+        </label><br>
+       
+        <label for="marcações">
+            <input name="prefer" value="front" id="box" type="checkbox">
+            Geladerira 
+            
+       </label><br>
+       <label for="marcações">
+        <input name="prefer" value="front" id="box" type="checkbox">
+            Cama Box
+        
+       </label><br>
+       <label for="marcações">
+        <input name="prefer" value="front" id="box" type="checkbox">
+        Televisão
+        
+        </label></div>
+        
+    </div>
+
+    <div id="pg6" class="gp-perguntas"><div id="alinhamento"><p>
+      Escreva mais informaçõesnos quuais eu não citei:
+        </p>
+        
+        <textarea name="comment" id="comentario" cols="30" rows="10" placeholder="Digite aqui..."></textarea>
+    </div>
+
+    <button type="submit" id="enviar"><em><strong>Enviar Informações</strong></em></button>
+    </form>
+   </div>
+        
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+
+</html>
